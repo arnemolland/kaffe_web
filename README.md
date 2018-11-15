@@ -1,4 +1,4 @@
-<img src="https://uploads-ssl.webflow.com/5b1128fc5f2c71cb3e9f8909/5bec4a11fb29cc4bf6b8ef0c_kaffe_logo_black_transparent.png" align="left" width="144px" height="144px"/>
+<img src="https://uploads-ssl.webflow.com/5b1128fc5f2c71cb3e9f8909/5bed7cfd0001646126dbd8ec_kaffe_logo_transparent.png" align="left" width="144px" height="144px"/>
 <img align="left" width="0" height="144px" hspace="10"/>
 
 # kaffe_app
