@@ -1,4 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# firebase related
+**/.firebaserc
+/.firebase
+**/secrets.json
+**/firebase-debug.log
+**/firestore-debug.log
+**/node_modules
+**/bower_components
+**/*.bak
+.idea
 
 # dependencies
 /node_modules
