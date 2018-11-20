@@ -1,28 +1,32 @@
-import React, { Component } from 'react';
-import logo from './images/kaffe_logo_black.svg';
-import './App.scss';
+import React, { Component } from "react";
+import logo from "./images/kaffe_logo_black.svg";
+import "./App.scss";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Home from "./views/Home";
+import Register from "./components/Auth/Register";
+
+import Footer from "./components/Footer";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<Router>
+				<div>
+					<Route exact path="/" component={Home} />
+
+					{/* Etc 
+					<Route path="/profile" component={Profile} />*/}
+
+					{/* Auth */}
+					{/*<Route path="/login" component={Login} />*/}
+					<Route path="/register" component={Register} />
+
+					<Footer />
+				</div>
+			</Router>
+		);
+	}
 }
 
 export default App;
